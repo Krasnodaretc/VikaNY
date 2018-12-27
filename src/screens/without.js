@@ -1,5 +1,5 @@
 import React from 'react';
-import RadioForm from '../components/Checkbox';
+import RadioForm from '../components/Radio';
 
 import coffee from '../img/coffee.jpg';
 import friends from '../img/Friends.jpg';

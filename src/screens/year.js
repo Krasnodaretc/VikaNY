@@ -1,5 +1,5 @@
 import React from 'react';
-import RadioForm from '../components/Checkbox';
+import RadioForm from '../components/Radio';
 
 const quiz = {
   question: 'Кто из этих музыкантов тебе больше запомнился в 2018 году?',

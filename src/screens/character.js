@@ -1,5 +1,5 @@
 import React from 'react';
-import RadioForm from '../components/Checkbox';
+import RadioForm from '../components/Radio';
 
 import first from '../img/self.jpg';
 import second from '../img/Vika3.jpg';

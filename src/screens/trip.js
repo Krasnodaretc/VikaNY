@@ -1,5 +1,5 @@
 import React from 'react';
-import RadioForm from '../components/Checkbox';
+import RadioForm from '../components/Radio';
 
 const quiz = {
   question: 'Какое из этих маленьких приключений в прошлом году тебе больше запомнилось?',

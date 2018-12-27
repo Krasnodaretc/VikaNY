@@ -36,9 +36,15 @@ export default class Layout extends React.Component {
         const CurrentScreen = Screens[screen];
         const nextScreen = getNextScreen(screen);
 
-        return <CurrentScreen
-          onSubmit={this.setAnswer}
-          onNext={() => { this.changeScreen(nextScreen) }}
-        />;
+        return (
+          <div className={`layout layout--${screen}`}>
+              <div className='screen'>
+                  <CurrentScreen
+                    onSubmit={this.setAnswer}
+                    onNext={() => { this.changeScreen(nextScreen) }}
+                  />
+              </div>
+          </div>
+        );
     }
 }

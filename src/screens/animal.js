@@ -1,6 +1,6 @@
 // Какое волшебное животное больше нравится
 import React from 'react';
-import RadioForm from '../components/Checkbox';
+import RadioForm from '../components/Radio';
 
 const quiz = {
   question: 'Выбери волшебное животное :) Какое больше нравится?',

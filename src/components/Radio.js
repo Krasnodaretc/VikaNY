@@ -1,16 +1,16 @@
 import React from 'react';
 
 const RadioElement = ({ title, img, value, onChange }) => (
-  <div>
+  <div className='answer'>
     <label htmlFor={title}>
       {img ? (
-        <img alt='' src={img} />
+        <img className='answer__img' alt='' src={img} />
       ) : null}
-      <div>
+      <div className='answer__title'>
         {title}
       </div>
     </label>
-    <input type="radio" name="radioGroup" id={title} value={value} onChange={onChange}/>
+    <input className='answer__input' type="radio" name="radioGroup" id={title} value={value} onChange={onChange}/>
   </div>
 );
 
@@ -37,7 +37,7 @@ export default class Radio extends React.Component {
   render() {
     const { options } = this.props;
     return (
-        <form onSubmit={this.onSubmit}>
+        <form onSubmit={this.onSubmit} className='form'>
           {options.map(option => (
             <RadioElement
               key={option.title}
@@ -47,7 +47,7 @@ export default class Radio extends React.Component {
               onChange={(e) => this.onChange(e.target.value)}
             />
           ))}
-          <button type="submit">
+          <button type="submit" className='form__next'>
             Далее
           </button>
         </form>

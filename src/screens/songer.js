@@ -1,5 +1,5 @@
 import React from 'react';
-import RadioForm from '../components/Checkbox';
+import RadioForm from '../components/Radio';
 
 import scrip from '../img/Scrip.png';
 import hleb from '../img/Hleb.png';
