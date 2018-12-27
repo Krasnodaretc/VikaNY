@@ -29,6 +29,7 @@ export default class Screen extends React.PureComponent {
     const { onSubmit } = this.props;
     return (
       <RadioForm
+        title={quiz.question}
         options={quiz.answers}
         onSubmit={onSubmit}
       />
