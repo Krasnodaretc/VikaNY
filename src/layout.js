@@ -19,19 +19,20 @@ export default class Layout extends React.Component {
     };
 
     setAnswer = (resultText) => {
-        const { screen } = this.state;
+        const { screen, answers } = this.state;
 
         const nextScreen = getNextScreen(screen);
         this.setState({
             screen: nextScreen,
-            answer: {
+            answers: {
+                ...answers,
                 [screen]: resultText,
             }
         });
     };
 
     render() {
-        const { screen } = this.state;
+        const { screen, answers } = this.state;
 
         const CurrentScreen = Screens[screen];
         const nextScreen = getNextScreen(screen);
@@ -42,6 +43,7 @@ export default class Layout extends React.Component {
                   <CurrentScreen
                     onSubmit={this.setAnswer}
                     onNext={() => { this.changeScreen(nextScreen) }}
+                    answers={answers}
                   />
               </div>
           </div>

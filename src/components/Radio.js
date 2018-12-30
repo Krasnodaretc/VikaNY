@@ -43,6 +43,7 @@ export default class Radio extends React.Component {
 
   render() {
     const { options, title } = this.props;
+    const disabledNext = !this.state.value;
     return (
         <form onSubmit={this.onSubmit} className='form'>
           <div className='form__title'>
@@ -60,7 +61,7 @@ export default class Radio extends React.Component {
               />
             ))}
           </div>
-          <button type="submit" className='form__next'>
+          <button disabled={disabledNext} type="submit" className={`form__next ${disabledNext ? 'form__next--hidden' : ''}`}>
             Далее
           </button>
         </form>

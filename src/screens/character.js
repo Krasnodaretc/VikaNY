@@ -12,22 +12,23 @@ const quiz = {
     {
       title: 'С чудом',
       img: first,
-      resultText: '',
+      resultText: 'true',
+      secret: 'Я слишком часто тебе это говорил, да?',
     },
     {
       title: 'С этими вот штанишками',
       img: second,
-      resultText: '',
+      resultText: 'true',
     },
     {
       title: 'С радостью',
       img: third,
-      resultText: '',
+      resultText: 'true',
     },
     {
       title: 'С трезвостью',
       img: fourth,
-      resultText: '',
+      resultText: 'true',
     },
   ]
 };

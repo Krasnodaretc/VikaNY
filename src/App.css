@@ -2,6 +2,8 @@ html, body{
   margin: 0px;
   padding: 0px;
   font-family: 'PT Sans', sans-serif;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 *{
@@ -53,10 +55,11 @@ button, input{
 }
 
 .screen{
-  background-color: rgba(233, 0, 255, 0.3);
+  background-color: rgba(233, 0, 255, 0.5);
   border: 1px solid #E900FF;
   border-radius: 20px;
   padding: 20px;
+  margin: 50px 0px;
 }
 
 .start{
@@ -64,6 +67,13 @@ button, input{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 600px;
+}
+
+.text{
+  font-size: 18px;
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
 }
 
 .start__title{
@@ -183,8 +193,32 @@ button, input{
   text-transform: uppercase;
 }
 
+.form__next--hidden{
+  opacity: 0;
+}
+
 .form__next:hover{
   background-color: #FFF;
   color: #E900FF;
   cursor: pointer;
+}
+
+.congrats-text{
+  margin: 20px 40px;
+  max-width: 600px;
+  font-size: 22px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.congrats-text__title{
+  font-family: 'Marck Script', cursive;
+  font-size: 46px;
+  text-align: center;
+}
+
+.final-congrats{
+  font-size: 48px;
+  color: #FFFFFF;
+  font-family: 'Marck Script', cursive;
+  text-align: center;
 }
