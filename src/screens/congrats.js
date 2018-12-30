@@ -13,10 +13,10 @@ export default class Screen extends React.PureComponent {
 
     return (
       <div className='congrats-text'>
-        <div className='congrats-text__title'>Милая Вика!</div>
         <div className="schema">
           <img src={schemaVika} alt=""/>
         </div>
+        <div className='congrats-text__title'>Милая Вика!</div>
         <p>
           Для многих Новый Год бывает переломным моментом. Для кого-то - шансом начать с чистого листа.
           {` ${filteredAnswers.Year}`}
