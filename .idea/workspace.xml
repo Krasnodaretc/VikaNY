@@ -174,12 +174,15 @@
       <workItem from="1545984768505" duration="598000" />
       <workItem from="1546047587137" duration="785000" />
       <workItem from="1546048611526" duration="5616000" />
-      <workItem from="1546129993118" duration="6222000" />
+      <workItem from="1546129993118" duration="7200000" />
+      <workItem from="1546142114771" duration="490000" />
+      <workItem from="1546948337512" duration="346000" />
+      <workItem from="1547414412089" duration="324000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44450000" />
+    <option name="totallyTimeSpent" value="46581000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="25" width="1857" height="1055" extended-state="6" />
@@ -367,8 +370,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="234" column="1" lean-forward="true" selection-start-line="234" selection-start-column="1" selection-end-line="234" selection-end-column="1" />
+        <state relative-caret-position="432">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
         </state>
       </provider>
     </entry>
